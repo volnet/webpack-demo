@@ -1,4 +1,4 @@
-https://webpack.docschina.org/guides/asset-management/
+https://webpack.docschina.org/guides/output-management/
 
 ```bash
 npm install
