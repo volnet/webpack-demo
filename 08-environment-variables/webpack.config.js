@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = (env) => {
   // Use env.<YOUR VARIABLE> here:
@@ -7,6 +8,11 @@ module.exports = (env) => {
 
   return {
     entry: './src/index.js',
+    plugins: [
+      new HtmlWebpackPlugin({
+        title: "environment-variables"
+      })
+    ],
     output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, 'dist'),
