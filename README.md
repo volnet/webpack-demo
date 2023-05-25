@@ -9,3 +9,4 @@ official tutorial [https://webpack.docschina.org/guides/](https://webpack.docsch
 5. [05-code-splitting](05-code-splitting/)
 6. [06-caching](06-caching/)
 7. [07-author-libraries](07-author-libraries/)
+8. [08-environment-variables](08-environment-variables/)
