@@ -18,5 +18,5 @@ async function getComponent() {
 }
 
 getComponent().then((component) => {
-  document.body.appendChild(component);动态导入(dynamic import)
+  document.body.appendChild(component);
 });
